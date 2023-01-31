@@ -1,0 +1,87 @@
+Manifest-Version: 1.0
+Main-Class: com.distribuida.Main
+Class-Path: libs/quarkus-hibernate-orm-rest-data-panache-2.16.0.Final.ja
+ r libs/quarkus-resteasy-reactive-jackson-2.16.0.Final.jar libs/quarkus-
+ resteasy-reactive-jaxb-2.16.0.Final.jar libs/quarkus-resteasy-reactive-
+ 2.16.0.Final.jar libs/quarkus-jdbc-postgresql-2.16.0.Final.jar libs/qua
+ rkus-hibernate-orm-panache-2.16.0.Final.jar libs/quarkus-jaxb-2.16.0.Fi
+ nal.jar libs/quarkus-rest-data-panache-2.16.0.Final.jar libs/quarkus-hi
+ bernate-orm-panache-common-2.16.0.Final.jar libs/quarkus-panache-hibern
+ ate-common-2.16.0.Final.jar libs/quarkus-panache-common-2.16.0.Final.ja
+ r libs/quarkus-hal-2.16.0.Final.jar libs/quarkus-resteasy-reactive-jack
+ son-common-2.16.0.Final.jar libs/quarkus-jackson-2.16.0.Final.jar libs/
+ quarkus-resteasy-reactive-common-2.16.0.Final.jar libs/quarkus-vertx-ht
+ tp-2.16.0.Final.jar libs/quarkus-vertx-2.16.0.Final.jar libs/quarkus-hi
+ bernate-orm-2.16.0.Final.jar libs/quarkus-agroal-2.16.0.Final.jar libs/
+ quarkus-narayana-jta-2.16.0.Final.jar libs/quarkus-mutiny-2.16.0.Final.
+ jar libs/quarkus-smallrye-context-propagation-2.16.0.Final.jar libs/qua
+ rkus-netty-2.16.0.Final.jar libs/quarkus-datasource-2.16.0.Final.jar li
+ bs/quarkus-arc-2.16.0.Final.jar libs/brotli4j-1.8.0.jar libs/resteasy-r
+ eactive-jackson-2.16.0.Final.jar libs/jackson-datatype-jdk8-2.14.1.jar 
+ libs/jackson-module-parameter-names-2.14.1.jar libs/resteasy-reactive-v
+ ertx-2.16.0.Final.jar libs/quarkus-vertx-http-dev-console-runtime-spi-2
+ .16.0.Final.jar libs/smallrye-mutiny-vertx-web-2.30.1.jar libs/vertx-we
+ b-4.3.7.jar libs/smallrye-mutiny-vertx-uri-template-2.30.1.jar libs/sma
+ llrye-mutiny-vertx-web-common-2.30.1.jar libs/smallrye-mutiny-vertx-aut
+ h-common-2.30.1.jar libs/smallrye-mutiny-vertx-bridge-common-2.30.1.jar
+  libs/smallrye-mutiny-vertx-core-2.30.1.jar libs/smallrye-common-vertx-
+ context-1.13.2.jar libs/vertx-web-common-4.3.7.jar libs/vertx-auth-comm
+ on-4.3.7.jar libs/vertx-bridge-common-4.3.7.jar libs/vertx-mutiny-gener
+ ator-2.30.1.jar libs/smallrye-mutiny-vertx-runtime-2.30.1.jar libs/vert
+ x-uri-template-4.3.7.jar libs/vertx-core-4.3.7.jar libs/vertx-codegen-4
+ .3.7.jar libs/jackson-core-2.14.1.jar libs/jackson-datatype-jsr310-2.14
+ .1.jar libs/jackson-databind-2.14.1.jar libs/jackson-annotations-2.14.1
+ .jar libs/hibernate-core-5.6.14.Final.jar libs/classmate-1.5.1.jar libs
+ /quarkus-caffeine-2.16.0.Final.jar libs/caffeine-3.1.1.jar libs/error_p
+ rone_annotations-2.17.0.jar libs/jaxb-runtime-2.3.3-b02.jar libs/jakart
+ a.activation-1.2.1.jar libs/agroal-narayana-1.16.jar libs/agroal-pool-1
+ .16.jar libs/agroal-api-1.16.jar libs/quarkus-jsonp-2.16.0.Final.jar li
+ bs/quarkus-jaxp-2.16.0.Final.jar libs/quarkus-security-runtime-spi-2.16
+ .0.Final.jar libs/quarkus-core-2.16.0.Final.jar libs/quarkus-bootstrap-
+ runner-2.16.0.Final.jar libs/org-crac-0.1.3.jar libs/netty-codec-haprox
+ y-4.1.86.Final.jar libs/netty-codec-http2-4.1.86.Final.jar libs/netty-h
+ andler-proxy-4.1.86.Final.jar libs/netty-codec-http-4.1.86.Final.jar li
+ bs/netty-resolver-dns-4.1.86.Final.jar libs/netty-handler-4.1.86.Final.
+ jar libs/netty-codec-socks-4.1.86.Final.jar libs/netty-codec-dns-4.1.86
+ .Final.jar libs/netty-codec-4.1.86.Final.jar libs/netty-transport-nativ
+ e-unix-common-4.1.86.Final.jar libs/netty-transport-4.1.86.Final.jar li
+ bs/netty-buffer-4.1.86.Final.jar libs/netty-resolver-4.1.86.Final.jar l
+ ibs/netty-common-4.1.86.Final.jar libs/quarkus-credentials-2.16.0.Final
+ .jar libs/arc-2.16.0.Final.jar libs/resteasy-reactive-2.16.0.Final.jar 
+ libs/resteasy-reactive-common-2.16.0.Final.jar libs/resteasy-reactive-c
+ ommon-types-2.16.0.Final.jar libs/quarkus-security-1.1.4.Final.jar libs
+ /quarkus-datasource-common-2.16.0.Final.jar libs/quarkus-development-mo
+ de-spi-2.16.0.Final.jar libs/quarkus-fs-util-0.0.9.jar libs/quarkus-ide
+ -launcher-2.16.0.Final.jar libs/quarkus-transaction-annotations-2.16.0.
+ Final.jar libs/quarkus-vertx-latebound-mdc-provider-2.16.0.Final.jar li
+ bs/mutiny-smallrye-context-propagation-1.8.0.jar libs/smallrye-reactive
+ -converter-mutiny-2.7.0.jar libs/mutiny-1.8.0.jar libs/smallrye-config-
+ 2.13.1.jar libs/smallrye-config-core-2.13.1.jar libs/smallrye-common-an
+ notation-1.13.2.jar libs/smallrye-config-common-2.13.1.jar libs/smallry
+ e-common-classloader-1.13.2.jar libs/smallrye-common-expression-1.13.2.
+ jar libs/smallrye-common-function-1.13.2.jar libs/smallrye-common-const
+ raint-1.13.2.jar libs/smallrye-common-io-1.13.2.jar libs/smallrye-react
+ ive-converter-api-2.7.0.jar libs/smallrye-context-propagation-1.2.2.jar
+  libs/smallrye-context-propagation-api-1.2.2.jar libs/smallrye-context-
+ propagation-jta-1.2.2.jar libs/smallrye-context-propagation-storage-1.2
+ .2.jar libs/smallrye-fault-tolerance-vertx-5.6.0.jar libs/jakarta.enter
+ prise.cdi-api-2.0.2.jar libs/jakarta.interceptor-api-1.2.5.jar libs/jak
+ arta.annotation-api-1.3.5.jar libs/jakarta.inject-api-1.0.jar libs/jaka
+ rta.persistence-api-2.2.3.jar libs/jakarta.transaction-api-1.3.3.jar li
+ bs/jakarta.validation-api-2.0.2.jar libs/byte-buddy-1.12.18.jar libs/mi
+ croprofile-config-api-2.0.1.jar libs/microprofile-context-propagation-a
+ pi-1.2.jar libs/jakarta.json-1.1.6.jar libs/graal-sdk-22.3.0.jar libs/h
+ ibernate-graalvm-5.6.14.Final.jar libs/quarkus-local-cache-0.1.1.jar li
+ bs/commons-logging-jboss-logging-1.0.0.Final.jar libs/jboss-logging-ann
+ otations-2.2.1.Final.jar libs/jboss-threads-3.4.3.Final.jar libs/hibern
+ ate-commons-annotations-5.1.2.Final.jar libs/jboss-logging-3.5.0.Final.
+ jar libs/jboss-logmanager-embedded-1.0.11.jar libs/narayana-jta-5.13.1.
+ Final.jar libs/narayana-jts-integration-5.13.1.Final.jar libs/slf4j-jbo
+ ss-logmanager-1.2.0.Final.jar libs/jboss-jaxrs-api_2.1_spec-2.0.1.Final
+ .jar libs/jboss-jaxb-api_2.3_spec-2.0.0.Final.jar libs/jboss-transactio
+ n-spi-7.6.0.Final.jar libs/postgresql-42.5.1.jar libs/reactive-streams-
+ 1.0.3.jar libs/slf4j-api-1.7.36.jar libs/wildfly-common-1.5.4.Final-for
+ mat-001.jar libs/jakarta.el-api-3.0.3.jar libs/txw2-2.3.3-b02.jar libs/
+ istack-commons-runtime-3.0.10.jar libs/antlr-2.7.7.jar libs/jboss-conne
+ ctor-api_1.7_spec-1.0.0.Final.jar
+
